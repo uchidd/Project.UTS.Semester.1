@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Case10Activity"
+    android:id="@+id/clCase10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/etInputACase10A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Nilai A"
+            android:textSize="20sp"
+            android:inputType="number"/>
+        <EditText
+            android:layout_below="@+id/etInputACase10A"
+            android:id="@+id/etInputBCase10A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Nilai b"
+            android:textSize="20sp"
+            android:inputType="number"/>
+        <Button
+            android:layout_below="@+id/etInputBCase10A"
+            android:id="@+id/btHasilCase10A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tampilkan Hasil"
+            android:textAllCaps="false"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Case5Activity">
+
+    <ImageView
+        android:id="@+id/ivCenter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/case_5" />
+
+    <ImageView
+        android:id="@+id/ivTop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/ivCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/case_5" />
+
+    <ImageView
+        android:id="@+id/ivRight"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivCenter"
+        android:src="@mipmap/case_5" />
+
+    <ImageView
+        android:id="@+id/ivBottom"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ivCenter"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/case_5" />
+
+    <ImageView
+        android:layout_toLeftOf="@+id/ivCenter"
+        android:id="@+id/ivLeft"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/case_5" />
+
+</RelativeLayout>

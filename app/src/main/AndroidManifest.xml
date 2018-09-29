@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.uchidd.projectutssemester1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="Midterm App Test"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Case5Activity" />
+        <activity android:name=".Case6Activity" android:theme="@style/AppTheme.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Case7Activity" />
+        <activity android:name=".Case8Activity" />
+        <activity android:name=".Case9Activity" />
+        <activity android:name=".Case10Activity" />
+        <activity android:name=".Case12FirstActivity" />
+        <activity android:name=".Case12SecondActivity" />
+        <activity android:name=".Case17Activity"></activity>
+    </application>
+
+</manifest>
